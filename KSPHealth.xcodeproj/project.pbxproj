@@ -16,6 +16,7 @@
 		BF02DD31218802AE00918BF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF02DD2F218802AE00918BF9 /* Main.storyboard */; };
 		BF02DD33218802B000918BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF02DD32218802B000918BF9 /* Assets.xcassets */; };
 		BF02DD36218802B000918BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF02DD34218802B000918BF9 /* LaunchScreen.storyboard */; };
+		BF0DADE8218A97B10069851D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DADE7218A97B10069851D /* Constant.swift */; };
 		BF8613B4218983A30055C722 /* IDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B3218983A30055C722 /* IDBHelper.swift */; };
 		BF8613B62189880E0055C722 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B52189880E0055C722 /* RealmHelper.swift */; };
 		BF8613B821899D460055C722 /* BaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B721899D460055C722 /* BaseError.swift */; };
@@ -42,6 +43,7 @@
 		BF02DD32218802B000918BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF02DD35218802B000918BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF02DD37218802B000918BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0DADE7218A97B10069851D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		BF8613B3218983A30055C722 /* IDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDBHelper.swift; sourceTree = "<group>"; };
 		BF8613B52189880E0055C722 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
 		BF8613B721899D460055C722 /* BaseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseError.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				BFC959A4218830FD008F639B /* Utils.swift */,
 				BF8613B721899D460055C722 /* BaseError.swift */,
 				BF8613B92189ADEB0055C722 /* Utils+Realm.swift */,
+				BF0DADE7218A97B10069851D /* Constant.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			files = (
 				BFC9599A21880DED008F639B /* DemoService.swift in Sources */,
 				BF02DD2E218802AE00918BF9 /* HomeController.swift in Sources */,
+				BF0DADE8218A97B10069851D /* Constant.swift in Sources */,
 				BF01ADCB21893BC2003BFA62 /* HKAssistant.swift in Sources */,
 				BF02DD2C218802AE00918BF9 /* AppDelegate.swift in Sources */,
 				BFC9599C21880F82008F639B /* Post.swift in Sources */,

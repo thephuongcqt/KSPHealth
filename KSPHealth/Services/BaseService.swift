@@ -19,6 +19,16 @@ protocol ResponseDelegete {
 typealias completionHandler<T> = (T?) -> ()
 
 class BaseService{
+    
+    var baseUrl: String{
+        get{
+            if let url = ProcessInfo().environment["BASE_URL"]{                
+                return url
+            }
+            return ""
+        }
+    }
+    
     func getRequest<T:Mappable>(with url: URLConvertible, parameters: [String: Any], header: HTTPHeaders?, completion: @escaping (NetworkResult<T>) -> ()){
         Alamofire.request(url, method: .get, parameters: parameters, headers: header)
             .validate(statusCode: 200...300)
