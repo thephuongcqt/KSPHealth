@@ -123,7 +123,7 @@ class HomeController: UIViewController {
     
     
     @IBAction func onButtonFitbitSelected(_ sender: Any) {
-        let fitbit = FitBitUtils.shared
+        let fitbit = FitbitUtils.shared
         fitbit.fetchData { (data, success) in
             if success{
                 print(data)

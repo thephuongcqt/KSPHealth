@@ -17,8 +17,8 @@
 		BF02DD33218802B000918BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF02DD32218802B000918BF9 /* Assets.xcassets */; };
 		BF02DD36218802B000918BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF02DD34218802B000918BF9 /* LaunchScreen.storyboard */; };
 		BF0DADE8218A97B10069851D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DADE7218A97B10069851D /* Constant.swift */; };
-		BF0DADED218AACAF0069851D /* FitBitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DADEC218AACAF0069851D /* FitBitUtils.swift */; };
-		BF0DADEF218AE36C0069851D /* FitBitUtils+GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DADEE218AE36C0069851D /* FitBitUtils+GetData.swift */; };
+		BF0DADED218AACAF0069851D /* FitbitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DADEC218AACAF0069851D /* FitbitUtils.swift */; };
+		BF0DADEF218AE36C0069851D /* FitbitUtils+GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DADEE218AE36C0069851D /* FitbitUtils+GetData.swift */; };
 		BF8613B4218983A30055C722 /* IDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B3218983A30055C722 /* IDBHelper.swift */; };
 		BF8613B62189880E0055C722 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B52189880E0055C722 /* RealmHelper.swift */; };
 		BF8613B821899D460055C722 /* BaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B721899D460055C722 /* BaseError.swift */; };
@@ -46,8 +46,8 @@
 		BF02DD35218802B000918BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF02DD37218802B000918BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF0DADE7218A97B10069851D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		BF0DADEC218AACAF0069851D /* FitBitUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitBitUtils.swift; sourceTree = "<group>"; };
-		BF0DADEE218AE36C0069851D /* FitBitUtils+GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FitBitUtils+GetData.swift"; sourceTree = "<group>"; };
+		BF0DADEC218AACAF0069851D /* FitbitUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbitUtils.swift; sourceTree = "<group>"; };
+		BF0DADEE218AE36C0069851D /* FitbitUtils+GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FitbitUtils+GetData.swift"; sourceTree = "<group>"; };
 		BF8613B3218983A30055C722 /* IDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDBHelper.swift; sourceTree = "<group>"; };
 		BF8613B52189880E0055C722 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
 		BF8613B721899D460055C722 /* BaseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseError.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		BF01ADC821893B9D003BFA62 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				BF0DADEB218AAC570069851D /* FitBit */,
+				BF0DADEB218AAC570069851D /* Fitbit */,
 				BF8613B2218983870055C722 /* Realm */,
 				BF01ADC921893BA5003BFA62 /* HealthKit */,
 			);
@@ -141,13 +141,13 @@
 			path = KSPHealth;
 			sourceTree = "<group>";
 		};
-		BF0DADEB218AAC570069851D /* FitBit */ = {
+		BF0DADEB218AAC570069851D /* Fitbit */ = {
 			isa = PBXGroup;
 			children = (
-				BF0DADEC218AACAF0069851D /* FitBitUtils.swift */,
-				BF0DADEE218AE36C0069851D /* FitBitUtils+GetData.swift */,
+				BF0DADEC218AACAF0069851D /* FitbitUtils.swift */,
+				BF0DADEE218AE36C0069851D /* FitbitUtils+GetData.swift */,
 			);
-			path = FitBit;
+			path = Fitbit;
 			sourceTree = "<group>";
 		};
 		BF8613B2218983870055C722 /* Realm */ = {
@@ -374,7 +374,7 @@
 				BFC9599C21880F82008F639B /* Post.swift in Sources */,
 				BF8613BA2189ADEB0055C722 /* Utils+Realm.swift in Sources */,
 				BF8613B4218983A30055C722 /* IDBHelper.swift in Sources */,
-				BF0DADEF218AE36C0069851D /* FitBitUtils+GetData.swift in Sources */,
+				BF0DADEF218AE36C0069851D /* FitbitUtils+GetData.swift in Sources */,
 				BFC959962188091D008F639B /* BaseService.swift in Sources */,
 				BF8613B62189880E0055C722 /* RealmHelper.swift in Sources */,
 				BFC9599821880A2B008F639B /* NetworkResult.swift in Sources */,
@@ -382,7 +382,7 @@
 				BF8613B821899D460055C722 /* BaseError.swift in Sources */,
 				BFC959A321882F10008F639B /* RPost.swift in Sources */,
 				BFC959A5218830FD008F639B /* Utils.swift in Sources */,
-				BF0DADED218AACAF0069851D /* FitBitUtils.swift in Sources */,
+				BF0DADED218AACAF0069851D /* FitbitUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
