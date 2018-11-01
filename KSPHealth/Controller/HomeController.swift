@@ -43,6 +43,7 @@ class HomeController: UIViewController {
         rightAxis.enabled = false
         leftAxis.enabled = false
         
+        //Get data from server
         DemoService.share.getPostList(with: [:]) { (result) in
             if let list = result{
                 var rList = [RPost]()
@@ -50,17 +51,19 @@ class HomeController: UIViewController {
                     let post = RPost(post: item)
                     rList.append(post)
                 }
-                
+                //Save data to local database
                 self.dbHelper.save(items: rList, completion: { (success, error) in
                     if let error = error{
                         print(error.localizedDescription)
                     } else{
+                        // Get Step count from Health Kit
                         self.getStepCount()
+                        //Get data from local database
                         self.dbHelper.getAll(objectType: RPost.self, completion: { (posts, error) in
                             if let error = error{
                                 print(error)
                             } else{
-                                print(posts)
+                                
                             }
                         })
                     }
@@ -116,6 +119,16 @@ class HomeController: UIViewController {
         dataSet.colors = ChartColorTemplates.vordiplom()
         // Refresh chart with new data
         barChartView.notifyDataSetChanged()
+    }
+    
+    
+    @IBAction func onButtonFitbitSelected(_ sender: Any) {
+        let fitbit = FitBitUtils.shared
+        fitbit.fetchData { (data, success) in
+            if success{
+                print(data)
+            }
+        }
     }
 }
 

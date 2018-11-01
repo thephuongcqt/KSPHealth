@@ -15,4 +15,3 @@ protocol IDBHealper {
     func getAll<T>(objectType: T.Type, completion: @escaping ([T], Error?) -> ())
     func delete<T>(item: T, completion: @escaping (Bool, Error?) -> ())
 }
-
