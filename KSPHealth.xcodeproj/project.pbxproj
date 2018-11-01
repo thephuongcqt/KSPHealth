@@ -7,21 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B8F5FC7BFD9DE55E7B4007C /* Pods_KSPHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF67FB73C44F3206FA45D0AE /* Pods_KSPHealth.framework */; };
+		BF01ADCB21893BC2003BFA62 /* HKAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF01ADCA21893BC2003BFA62 /* HKAssistant.swift */; };
+		BF01ADCE21893BD9003BFA62 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF01ADCD21893BD9003BFA62 /* HealthKit.framework */; };
+		BF01ADD021893CD0003BFA62 /* HKAssistant+StepsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF01ADCF21893CD0003BFA62 /* HKAssistant+StepsCount.swift */; };
 		BF02DD2C218802AE00918BF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02DD2B218802AE00918BF9 /* AppDelegate.swift */; };
-		BF02DD2E218802AE00918BF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02DD2D218802AE00918BF9 /* ViewController.swift */; };
+		BF02DD2E218802AE00918BF9 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02DD2D218802AE00918BF9 /* HomeController.swift */; };
 		BF02DD31218802AE00918BF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF02DD2F218802AE00918BF9 /* Main.storyboard */; };
 		BF02DD33218802B000918BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF02DD32218802B000918BF9 /* Assets.xcassets */; };
 		BF02DD36218802B000918BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF02DD34218802B000918BF9 /* LaunchScreen.storyboard */; };
+		BF8613B4218983A30055C722 /* IDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B3218983A30055C722 /* IDBHelper.swift */; };
+		BF8613B62189880E0055C722 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B52189880E0055C722 /* RealmHelper.swift */; };
+		BF8613B821899D460055C722 /* BaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B721899D460055C722 /* BaseError.swift */; };
+		BF8613BA2189ADEB0055C722 /* Utils+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B92189ADEB0055C722 /* Utils+Realm.swift */; };
+		BFC959962188091D008F639B /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC959952188091D008F639B /* BaseService.swift */; };
+		BFC9599821880A2B008F639B /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9599721880A2B008F639B /* NetworkResult.swift */; };
+		BFC9599A21880DED008F639B /* DemoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9599921880DED008F639B /* DemoService.swift */; };
+		BFC9599C21880F82008F639B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9599B21880F82008F639B /* Post.swift */; };
+		BFC959A321882F10008F639B /* RPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC959A221882F10008F639B /* RPost.swift */; };
+		BFC959A5218830FD008F639B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC959A4218830FD008F639B /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F76A22F63C5E3B18F230519 /* Pods-KSPHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSPHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSPHealth/Pods-KSPHealth.release.xcconfig"; sourceTree = "<group>"; };
+		AF67FB73C44F3206FA45D0AE /* Pods_KSPHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSPHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF01ADCA21893BC2003BFA62 /* HKAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKAssistant.swift; sourceTree = "<group>"; };
+		BF01ADCC21893BD9003BFA62 /* KSPHealth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KSPHealth.entitlements; sourceTree = "<group>"; };
+		BF01ADCD21893BD9003BFA62 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		BF01ADCF21893CD0003BFA62 /* HKAssistant+StepsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKAssistant+StepsCount.swift"; sourceTree = "<group>"; };
 		BF02DD28218802AE00918BF9 /* KSPHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSPHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF02DD2B218802AE00918BF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF02DD2D218802AE00918BF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF02DD2D218802AE00918BF9 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		BF02DD30218802AE00918BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF02DD32218802B000918BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF02DD35218802B000918BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF02DD37218802B000918BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8613B3218983A30055C722 /* IDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDBHelper.swift; sourceTree = "<group>"; };
+		BF8613B52189880E0055C722 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		BF8613B721899D460055C722 /* BaseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseError.swift; sourceTree = "<group>"; };
+		BF8613B92189ADEB0055C722 /* Utils+Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils+Realm.swift"; sourceTree = "<group>"; };
+		BFC959952188091D008F639B /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		BFC9599721880A2B008F639B /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		BFC9599921880DED008F639B /* DemoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoService.swift; sourceTree = "<group>"; };
+		BFC9599B21880F82008F639B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BFC959A221882F10008F639B /* RPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPost.swift; sourceTree = "<group>"; };
+		BFC959A4218830FD008F639B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F3199893C8CEC4226098DCD8 /* Pods-KSPHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSPHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSPHealth/Pods-KSPHealth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +60,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8F5FC7BFD9DE55E7B4007C /* Pods_KSPHealth.framework in Frameworks */,
+				BF01ADCE21893BD9003BFA62 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		996C3978EE2B89071F438245 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3199893C8CEC4226098DCD8 /* Pods-KSPHealth.debug.xcconfig */,
+				0F76A22F63C5E3B18F230519 /* Pods-KSPHealth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF01ADC821893B9D003BFA62 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				BF8613B2218983870055C722 /* Realm */,
+				BF01ADC921893BA5003BFA62 /* HealthKit */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		BF01ADC921893BA5003BFA62 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				BF01ADCA21893BC2003BFA62 /* HKAssistant.swift */,
+				BF01ADCF21893CD0003BFA62 /* HKAssistant+StepsCount.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
 		BF02DD1F218802AE00918BF9 = {
 			isa = PBXGroup;
 			children = (
 				BF02DD2A218802AE00918BF9 /* KSPHealth */,
 				BF02DD29218802AE00918BF9 /* Products */,
+				996C3978EE2B89071F438245 /* Pods */,
+				EE71712AEE44CDDD5419AB42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +116,98 @@
 		BF02DD2A218802AE00918BF9 /* KSPHealth */ = {
 			isa = PBXGroup;
 			children = (
+				BF01ADCC21893BD9003BFA62 /* KSPHealth.entitlements */,
+				BF01ADC821893B9D003BFA62 /* ThirdParty */,
+				BFC9599F218818A9008F639B /* Utils */,
+				BFC95994218806CF008F639B /* Services */,
+				BFC95992218806BE008F639B /* Model */,
+				BFC95991218806B8008F639B /* Controller */,
+				BFC95990218806B2008F639B /* View */,
 				BF02DD2B218802AE00918BF9 /* AppDelegate.swift */,
-				BF02DD2D218802AE00918BF9 /* ViewController.swift */,
 				BF02DD2F218802AE00918BF9 /* Main.storyboard */,
 				BF02DD32218802B000918BF9 /* Assets.xcassets */,
 				BF02DD34218802B000918BF9 /* LaunchScreen.storyboard */,
 				BF02DD37218802B000918BF9 /* Info.plist */,
 			);
 			path = KSPHealth;
+			sourceTree = "<group>";
+		};
+		BF8613B2218983870055C722 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				BF8613B3218983A30055C722 /* IDBHelper.swift */,
+				BF8613B52189880E0055C722 /* RealmHelper.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		BFC95990218806B2008F639B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFC95991218806B8008F639B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF02DD2D218802AE00918BF9 /* HomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFC95992218806BE008F639B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFC959A121882ED0008F639B /* RealmModel */,
+				BFC959A021882EB1008F639B /* ApiModel */,
+				BFC9599721880A2B008F639B /* NetworkResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFC95994218806CF008F639B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BFC959952188091D008F639B /* BaseService.swift */,
+				BFC9599921880DED008F639B /* DemoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BFC9599F218818A9008F639B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BFC959A4218830FD008F639B /* Utils.swift */,
+				BF8613B721899D460055C722 /* BaseError.swift */,
+				BF8613B92189ADEB0055C722 /* Utils+Realm.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BFC959A021882EB1008F639B /* ApiModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFC9599B21880F82008F639B /* Post.swift */,
+			);
+			path = ApiModel;
+			sourceTree = "<group>";
+		};
+		BFC959A121882ED0008F639B /* RealmModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFC959A221882F10008F639B /* RPost.swift */,
+			);
+			path = RealmModel;
+			sourceTree = "<group>";
+		};
+		EE71712AEE44CDDD5419AB42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF01ADCD21893BD9003BFA62 /* HealthKit.framework */,
+				AF67FB73C44F3206FA45D0AE /* Pods_KSPHealth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF02DD3A218802B000918BF9 /* Build configuration list for PBXNativeTarget "KSPHealth" */;
 			buildPhases = (
+				1AF5D0A89370BE8C41157575 /* [CP] Check Pods Manifest.lock */,
 				BF02DD24218802AE00918BF9 /* Sources */,
 				BF02DD25218802AE00918BF9 /* Frameworks */,
 				BF02DD26218802AE00918BF9 /* Resources */,
+				E20662F29AE0D12B0CB8388F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +244,11 @@
 				TargetAttributes = {
 					BF02DD27218802AE00918BF9 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,13 +283,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AF5D0A89370BE8C41157575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSPHealth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20662F29AE0D12B0CB8388F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KSPHealth/Pods-KSPHealth-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSPHealth/Pods-KSPHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF02DD24218802AE00918BF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF02DD2E218802AE00918BF9 /* ViewController.swift in Sources */,
+				BFC9599A21880DED008F639B /* DemoService.swift in Sources */,
+				BF02DD2E218802AE00918BF9 /* HomeController.swift in Sources */,
+				BF01ADCB21893BC2003BFA62 /* HKAssistant.swift in Sources */,
 				BF02DD2C218802AE00918BF9 /* AppDelegate.swift in Sources */,
+				BFC9599C21880F82008F639B /* Post.swift in Sources */,
+				BF8613BA2189ADEB0055C722 /* Utils+Realm.swift in Sources */,
+				BF8613B4218983A30055C722 /* IDBHelper.swift in Sources */,
+				BFC959962188091D008F639B /* BaseService.swift in Sources */,
+				BF8613B62189880E0055C722 /* RealmHelper.swift in Sources */,
+				BFC9599821880A2B008F639B /* NetworkResult.swift in Sources */,
+				BF01ADD021893CD0003BFA62 /* HKAssistant+StepsCount.swift in Sources */,
+				BF8613B821899D460055C722 /* BaseError.swift in Sources */,
+				BFC959A321882F10008F639B /* RPost.swift in Sources */,
+				BFC959A5218830FD008F639B /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +502,14 @@
 		};
 		BF02DD3B218802B000918BF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3199893C8CEC4226098DCD8 /* Pods-KSPHealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KSPHealth/KSPHealth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQT9G6B78G;
 				INFOPLIST_FILE = KSPHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +523,14 @@
 		};
 		BF02DD3C218802B000918BF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F76A22F63C5E3B18F230519 /* Pods-KSPHealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KSPHealth/KSPHealth.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQT9G6B78G;
 				INFOPLIST_FILE = KSPHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
