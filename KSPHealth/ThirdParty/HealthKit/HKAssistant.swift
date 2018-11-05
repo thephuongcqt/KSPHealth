@@ -9,7 +9,7 @@
 import Foundation
 import HealthKit
 
-class HKAssistant{
+class HKAssistant: IHealthAssistant{
     static let shared = HKAssistant()
     let healthStore = HKHealthStore()
     
@@ -18,7 +18,7 @@ class HKAssistant{
         case dataTypeNotAvailable
     }
     
-    func authorizeHealthKit(completion: @escaping (Bool, Error?) -> ()){
+    func authorizeRepository(completion: @escaping (Bool, Error?) -> ()){
         //1. Check to see if HealthKit Is Available on this device
         guard HKHealthStore.isHealthDataAvailable() else {
             completion(false, HealthkitSetupError.notAvailableOnDevice)

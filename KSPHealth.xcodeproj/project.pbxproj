@@ -17,12 +17,14 @@
 		BF02DD33218802B000918BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF02DD32218802B000918BF9 /* Assets.xcassets */; };
 		BF02DD36218802B000918BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF02DD34218802B000918BF9 /* LaunchScreen.storyboard */; };
 		BF0DADE8218A97B10069851D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DADE7218A97B10069851D /* Constant.swift */; };
-		BF0DADED218AACAF0069851D /* FitbitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DADEC218AACAF0069851D /* FitbitUtils.swift */; };
-		BF0DADEF218AE36C0069851D /* FitbitUtils+GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DADEE218AE36C0069851D /* FitbitUtils+GetData.swift */; };
+		BF0DADED218AACAF0069851D /* FitbitAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DADEC218AACAF0069851D /* FitbitAssistant.swift */; };
+		BF0DADEF218AE36C0069851D /* FitbitAssistant+GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DADEE218AE36C0069851D /* FitbitAssistant+GetData.swift */; };
+		BF3E8AB4219029010032B8A2 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E8AB3219029010032B8A2 /* UIViewController+Extensions.swift */; };
 		BF8613B4218983A30055C722 /* IDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B3218983A30055C722 /* IDBHelper.swift */; };
 		BF8613B62189880E0055C722 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B52189880E0055C722 /* RealmHelper.swift */; };
 		BF8613B821899D460055C722 /* BaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B721899D460055C722 /* BaseError.swift */; };
 		BF8613BA2189ADEB0055C722 /* Utils+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8613B92189ADEB0055C722 /* Utils+Realm.swift */; };
+		BF9D2939218B0158007E95EA /* IHealthAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9D2938218B0158007E95EA /* IHealthAssistant.swift */; };
 		BFC959962188091D008F639B /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC959952188091D008F639B /* BaseService.swift */; };
 		BFC9599821880A2B008F639B /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9599721880A2B008F639B /* NetworkResult.swift */; };
 		BFC9599A21880DED008F639B /* DemoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9599921880DED008F639B /* DemoService.swift */; };
@@ -46,12 +48,14 @@
 		BF02DD35218802B000918BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF02DD37218802B000918BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF0DADE7218A97B10069851D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		BF0DADEC218AACAF0069851D /* FitbitUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbitUtils.swift; sourceTree = "<group>"; };
-		BF0DADEE218AE36C0069851D /* FitbitUtils+GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FitbitUtils+GetData.swift"; sourceTree = "<group>"; };
+		BF0DADEC218AACAF0069851D /* FitbitAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbitAssistant.swift; sourceTree = "<group>"; };
+		BF0DADEE218AE36C0069851D /* FitbitAssistant+GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FitbitAssistant+GetData.swift"; sourceTree = "<group>"; };
+		BF3E8AB3219029010032B8A2 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		BF8613B3218983A30055C722 /* IDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDBHelper.swift; sourceTree = "<group>"; };
 		BF8613B52189880E0055C722 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
 		BF8613B721899D460055C722 /* BaseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseError.swift; sourceTree = "<group>"; };
 		BF8613B92189ADEB0055C722 /* Utils+Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils+Realm.swift"; sourceTree = "<group>"; };
+		BF9D2938218B0158007E95EA /* IHealthAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHealthAssistant.swift; sourceTree = "<group>"; };
 		BFC959952188091D008F639B /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		BFC9599721880A2B008F639B /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		BFC9599921880DED008F639B /* DemoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoService.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 				BF0DADEB218AAC570069851D /* Fitbit */,
 				BF8613B2218983870055C722 /* Realm */,
 				BF01ADC921893BA5003BFA62 /* HealthKit */,
+				BF9D2938218B0158007E95EA /* IHealthAssistant.swift */,
 			);
 			path = ThirdParty;
 			sourceTree = "<group>";
@@ -144,8 +149,8 @@
 		BF0DADEB218AAC570069851D /* Fitbit */ = {
 			isa = PBXGroup;
 			children = (
-				BF0DADEC218AACAF0069851D /* FitbitUtils.swift */,
-				BF0DADEE218AE36C0069851D /* FitbitUtils+GetData.swift */,
+				BF0DADEC218AACAF0069851D /* FitbitAssistant.swift */,
+				BF0DADEE218AE36C0069851D /* FitbitAssistant+GetData.swift */,
 			);
 			path = Fitbit;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				BF8613B721899D460055C722 /* BaseError.swift */,
 				BF8613B92189ADEB0055C722 /* Utils+Realm.swift */,
 				BF0DADE7218A97B10069851D /* Constant.swift */,
+				BF3E8AB3219029010032B8A2 /* UIViewController+Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -308,15 +314,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-KSPHealth-checkManifestLockResult.txt",
 			);
@@ -330,8 +332,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KSPHealth/Pods-KSPHealth-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
@@ -343,8 +343,6 @@
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
@@ -369,20 +367,22 @@
 				BFC9599A21880DED008F639B /* DemoService.swift in Sources */,
 				BF02DD2E218802AE00918BF9 /* HomeController.swift in Sources */,
 				BF0DADE8218A97B10069851D /* Constant.swift in Sources */,
+				BF3E8AB4219029010032B8A2 /* UIViewController+Extensions.swift in Sources */,
 				BF01ADCB21893BC2003BFA62 /* HKAssistant.swift in Sources */,
 				BF02DD2C218802AE00918BF9 /* AppDelegate.swift in Sources */,
 				BFC9599C21880F82008F639B /* Post.swift in Sources */,
 				BF8613BA2189ADEB0055C722 /* Utils+Realm.swift in Sources */,
 				BF8613B4218983A30055C722 /* IDBHelper.swift in Sources */,
-				BF0DADEF218AE36C0069851D /* FitbitUtils+GetData.swift in Sources */,
+				BF0DADEF218AE36C0069851D /* FitbitAssistant+GetData.swift in Sources */,
 				BFC959962188091D008F639B /* BaseService.swift in Sources */,
 				BF8613B62189880E0055C722 /* RealmHelper.swift in Sources */,
+				BF9D2939218B0158007E95EA /* IHealthAssistant.swift in Sources */,
 				BFC9599821880A2B008F639B /* NetworkResult.swift in Sources */,
 				BF01ADD021893CD0003BFA62 /* HKAssistant+StepsCount.swift in Sources */,
 				BF8613B821899D460055C722 /* BaseError.swift in Sources */,
 				BFC959A321882F10008F639B /* RPost.swift in Sources */,
 				BFC959A5218830FD008F639B /* Utils.swift in Sources */,
-				BF0DADED218AACAF0069851D /* FitbitUtils.swift in Sources */,
+				BF0DADED218AACAF0069851D /* FitbitAssistant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,8 +530,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = KSPHealth/KSPHealth.entitlements;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQT9G6B78G;
 				INFOPLIST_FILE = KSPHealth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -552,8 +553,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = KSPHealth/KSPHealth.entitlements;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQT9G6B78G;
 				INFOPLIST_FILE = KSPHealth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -635,8 +637,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = KSPHealth/KSPHealth.entitlements;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQT9G6B78G;
 				INFOPLIST_FILE = KSPHealth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

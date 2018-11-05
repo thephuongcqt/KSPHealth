@@ -9,5 +9,5 @@ target 'KSPHealth' do
 	pod 'Alamofire', '~> 4.7'
     pod 'AlamofireObjectMapper', '~> 5.0'
     pod 'Charts'
-    pod 'OAuthSwift', '~> 1.2.0'
+    pod 'OAuthSwift', '~> 1.2.0'    
 end
