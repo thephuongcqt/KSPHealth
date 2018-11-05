@@ -19,7 +19,6 @@ protocol ResponseDelegete {
 typealias completionHandler<T> = (T?) -> ()
 
 class BaseService{
-    
     var baseUrl: String{
         get{
             if let url = ProcessInfo().environment["BASE_URL"]{                

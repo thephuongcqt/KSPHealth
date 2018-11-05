@@ -74,7 +74,7 @@ class HomeController: UIViewController {
     
     func getStepCount(){
         let assistant = HKAssistant.shared
-        assistant.authorizeHealthKit { (authorized, error) in
+        assistant.authorizeRepository { (authorized, error) in
             guard authorized else{
                 let baseMessage = "HealthKit Authorization Failed"
                 if let error = error {
@@ -123,13 +123,21 @@ class HomeController: UIViewController {
     
     
     @IBAction func onButtonFitbitSelected(_ sender: Any) {
-        let fitbit = FitbitUtils.shared
+        let fitbit = FitbitAssistant.shared
         fitbit.fetchData { (data, success) in
             if success{
                 print(data)
             }
         }
     }
+    
+    @IBAction func onButtonPulsenseSelected(_ sender: Any) {
+        let loginService = LoginService()
+        let loginControllerViewModel = LoginControllerViewModel(loginService)
+        let loginController = LoginController.create(with: loginControllerViewModel)
+        self.navigationController?.pushViewController(loginController, animated: true)
+    }
+    
 }
 
 extension HomeController: IAxisValueFormatter{
